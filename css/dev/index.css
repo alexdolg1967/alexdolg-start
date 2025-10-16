@@ -464,6 +464,11 @@ fieldset {
   display: none !important;
 }
 
+.swiper-button-prev:not(:disabled),
+.swiper-button-next:not(:disabled) {
+  pointer-events: all;
+}
+
 .swiper-button-prev:not(:disabled):hover,
 .swiper-button-next:not(:disabled):hover {
   --swiper-navigation-color: var(--accent-color);
